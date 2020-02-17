@@ -10,6 +10,7 @@ h1{
 	padding-left: 10px;
 	border-style: solid;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
 }
 p{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -19,5 +20,8 @@ p{
 	
 	header{
 		font-size: 40px;
+	}
+	h1{
+		font-size: 32px;
 	}
 }
