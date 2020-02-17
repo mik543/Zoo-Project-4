@@ -1,7 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-
-
+header{
+	align-content: center;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+}
+h1{
+	border-style: solid;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+p{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
 @media only screen and (min-width: 600px){
 	
+	header{
+		font-size: 40px;
+	}
 }
