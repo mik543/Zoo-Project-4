@@ -12,9 +12,17 @@ h1{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 20px;
 }
+h2{
+	padding-left: 10px;
+}
 p{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 20px;
+	padding-left: 10px
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 @media only screen and (min-width: 600px){
 	
