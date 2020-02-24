@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.drop-content{
+		
+  	position:fixed;
+	margin: 0px;
+	width: 200px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	background-color: white;
+	border-right-style: groove;
+	border-color: black;
+	border-width: thick;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.drop-content a{
+	display: block;
+	text-decoration:none;
+	color: black;
+	padding: 10px;
+	font-size: 25px;
+	}
+.drop-content a.border{
+	border-top: 3px solid black;
+}
+.map{
+	margin-left: 200px;
+	max-width: 100%;
+	height: auto;
+}
+.ikon{
+	margin-left: 200px;
+	max-width: 100%;
+	height: auto;
+}
