@@ -6,7 +6,9 @@
   padding: 0;
 }
 
+
 .header {
+  padding-left: 12.5em;
   background-color: #8f2e2f;
   width: 100vw;
   height: 7em;
