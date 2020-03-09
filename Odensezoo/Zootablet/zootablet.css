@@ -1,40 +1,73 @@
 @charset "utf-8";
 /* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #8f2e2f;
+  width: 100vw;
+  height: 7em;
+}
+
+.logo {
+  position: absolute;
+  left: 43%;
+  top: 2%;
+  height: 5em;
+}
+
+
+/* MENU STYLING */
+
 .drop-content{
-		
-  	position:fixed;
+  position:fixed;
 	margin: 0px;
 	width: 200px;
 	height: 100%;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	background-color: white;
+	background-color: #cec8bd;
 	border-right-style: groove;
-	border-color: black;
+	border-color: #2e2b21;
 	border-width: thick;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
-.drop-content a{
+.drop-content a {
 	display: block;
-	text-decoration:none;
+	text-decoration: none;
+	text-align: center;
 	color: black;
-	padding: 10px;
-	font-size: 25px;
+	padding: 13px;
+	font-size: 1.6em;
 	}
+
 .drop-content a.border{
-	border-top: 3px solid black;
+	border-top: 1px solid #2e2b21;
 }
-.map{
-	margin-left: 200px;
-	max-width: 100%;
+
+.drop-content a:hover{
+	background-color: #c2b99b;
+}
+
+.map {
+	margin-left: 230px;
+	max-width: 75%;
 	height: auto;
 }
+
 .ikon{
 	margin-left: 200px;
 	max-width: 100%;
 	height: auto;
 }
+
+
+/* POP UP VINDUE STYLING */
+
 .modal {
 	display: none;
 	position: fixed;
@@ -48,25 +81,42 @@
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0,0.4);
 }
+
 .modal-content{
-	background-color: #fefefe;
+	background-color: #8f2e2f;
 	margin: auto;
 	padding: 20px;
-	border: 1px solid #888;
 	width: 80%;
 }
+
+.overskrift {
+	padding-bottom: .5em;
+	font-size: 2.4em;
+	font-family: 'Inter';
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.tekst {
+	font-size: 1.2em;
+	font-family: 'Inter';
+	color: #FFFFFF;
+}
+
+
 .close {
- 	color: #aaaaaa;
+ 	color: #cec8bd;
   	float: right;
   	font-size: 28px;
 	font-weight: bold;
 }
 .close:hover,
 .close:focus {
-  	color: #000;
+  	color: #2e2b21;
   	text-decoration: none;
   	cursor: pointer;
 }
+
 button{
 	border: none;
 	font-size: 25px;
