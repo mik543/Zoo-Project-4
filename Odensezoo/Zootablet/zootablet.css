@@ -5,7 +5,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+	overflow-y: hidden;
+}
 
 .header {
   padding-left: 12.5em;
@@ -58,7 +60,7 @@
 
 .map {
 	margin-left: 230px;
-	max-width: 75%;
+	max-width: 68%;
 	height: auto;
 }
 
