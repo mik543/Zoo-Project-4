@@ -2,17 +2,28 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>sanitet</title>
+<title>Toilet</title>
 <link href="zootablet.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"> <!-- font-family: 'Inter', sans-serif; -->
 </head>
-
 <body>
-	<div class="drop-content">
-			<a class="border" href="zootablet.html">Tilbage</a>
-    		<a class="border"></a>
-    		<a class="border"></a>
-			<a class="border"></a>
+	<div class="header">
+		<div>
+			<img class="logo" src="hvidlogoshooped.png" alt="logo">
+		</div>
 	</div>
-	<img class="map" src="sanitet.png" alt="map" width="auto" height="auto">
+	<div class="drop-content">
+		<a class="border" href="zootablet.html">TILBAGE</a>
+    <a class="border"><button id="myBtn"> <p>Om toilettet</p> </button></a>
+	</div>
+	<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+		<p class="overskrift">Toiletter</p>
+    <p class="tekst">Her finder du nogle af havens mange toiletter.<br> Yderligere er her også både handicaptoilet og puslebord.</p>
+  </div>
+</div>
+	<script src="zootablet.js"></script>
+	<img class="map" src="vejtiltoiletkort.png" alt="map" width="auto" height="auto">
 </body>
 </html>
