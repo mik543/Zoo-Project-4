@@ -8,6 +8,7 @@
 
 body {
 	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 .header {
@@ -60,9 +61,11 @@ body {
 }
 
 .map {
-	margin-left: 230px;
+	
+	margin-left: 270px;
 	max-width: 68%;
 	height: auto;
+	overflow: auto;
 }
 
 .ikon{
