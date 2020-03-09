@@ -19,7 +19,6 @@
   left: 43%;
   top: 2%;
   height: 5em;
-	padding-left: 100px
 }
 
 
@@ -39,6 +38,7 @@
 	border-width: thick;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 .drop-content a {
 	display: block;
 	text-decoration: none;
