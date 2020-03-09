@@ -52,11 +52,14 @@ body {
 	font-size: 1.6em;
 	}
 
-.drop-content a.border{
+.drop-content div.border{
 	border-top: 1px solid #2e2b21;
+	text-align: center;
+	padding: 13px;
+	
 }
 
-.drop-content a:hover{
+.drop-content div:hover{
 	background-color: #c2b99b;
 }
 
